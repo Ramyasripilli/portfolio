@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem 1rem;
+        }
+        #home {
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .profile-image {
+            margin-bottom: 1rem;
+        }
+        .profile-image img {
+            width: 200px; /* Adjust size as needed */
+            height: auto;
+            border-radius: 50%; /* Makes the image round */
+        }
+        .profile-text {
+            font-size: 1.2rem;
+        }
+        #about, #education, #skills,  #hobbies,  #contact {
+            background-color: #fff;
+            margin-top: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 1.5rem;
+        }
+        .skills-description {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skills-description .technical-skills, .skills-description .soft-skills , .hobbies-description .hobbies, .contact-description .contact{
+            width: 45%;
+        }
+        .skills-description h2 {
+            margin-bottom: 1rem;
+        }
+        .skills-description ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-description ul li {
+            margin-bottom: 0.5rem;
+        }
+        .hobbies-description ul li{
+            margin-bottom: 1rem;
+        }
+        .contact-description ul li{
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="profile-image">
+            <!-- Adjust the src attribute based on your image location -->
+            <img src="C:\Users\ramya\OneDrive\Pictures\myphoto.jpg" alt="Profile Image">
+        </div>
+        <div class="profile-text">
+            <p>Hey! Hi, I am Ramya Sri Pilli.</p>
+            <p>I am a Web designer and an Entrepreneur.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-description">
+            <h2>About:</h2>
+            <p>I am Ramya Sri Pilli, currently studying at SRM University, AP. I am in my third year pursuing a degree in Computer Science and Engineering. My career aspiration is to become an architect.</p>
+            <p>Specifically, I plan to establish a business with the goal of empowering society through entrepreneurship.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="education-description">
+            <h2>Education:</h2>
+            <p>Graduation at SRM University, AP.</p>
+            <p>Intermediate at Tirumala Mahila Junior Kalasala, Rajahmundry.</p>
+            <p>Schooling at Sri Chaitanya Techno School, Tapeswaram.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-description">
+            <div class="technical-skills">
+                <h2>Technical Skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>C++</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <div class="soft-skills">
+                <h2>Soft Skills:</h2>
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Problem-solving</li>
+                    <li>Time management</li>
+                    <li>Compassion</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="hobbies">
+        <div class="hobbies-description">
+            <h2>Hobbies:</h2>
+            <ul>
+                <li>Reading books on entrepreneurship and technology</li>
+                <li>Exploring new web design trends</li>
+                <li>Playing chess</li>
+                <li>Traveling and experiencing new cultures</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-description">
+            <h2>contact:</h2>
+            <ul>
+                <li>Email: ramyasri_pilli@srmap.edu.in</li>
+                <li>Phone: +1234567890</li>
+                <li>Social media: <a href="https://www.linkedin.com/in/ramyasri">linkedin</a></li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>
